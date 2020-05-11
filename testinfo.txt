@@ -1,0 +1,27 @@
+This sample xls file has around 5000 rows of data.
+
+Task:
+Read the xls file line by line
+Based on column E (Country)
+Get the United States rows as separate file
+Get the Great Britain rows as separate file
+Get the France rows as separate file.
+
+Based on Column D (Gender)
+Get all Male rows as separate file
+Get all Female Rows as separte file
+
+Save as csv file instead of xls file, ie output should be in CSV file. 
+
+Task2:
+Read the same file
+Sort on Gender, Country, Age and then save the file. 
+
+Task3:
+Given a mobile number get the max number of same consecutive repeated number.
+For eg:  90003259119 -  In this case it should show 0 (3 times), 1 (2times)
+9112233838 1 (2 times), 2 (2 times), 3 (2 times)
+9121213838 - No consicutive repeated numbers found.
+Test for different inputs and pass phone number as argument for your python program. 
+for eg:
+phonenumtest.py 9003293939
